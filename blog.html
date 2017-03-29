@@ -61,24 +61,18 @@
 							<a href="about.html">About</a>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">What I Do</a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
 							<ul class="dropdown-menu" role="menu">
 								<li>
-									<a href="contact.html">Fitness</a>
+									<a href="photography.html">Photography</a>
 								</li>
 								<li>
-									<a href="contact.html">Photography</a>
-								</li>
-								<li>
-									<a href="contact.html">Design</a>
-								</li>
-								<li>
-									<a href="contact.html">Coding</a>
+									<a href="design.html">Web &amp; Branding</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a href="blog.html">Blog</a>
+							<a href="blog.html">Le Blog</a>
 						</li>
 						<li>
 							<a href="contact.html">Contact</a>
@@ -96,83 +90,115 @@
 	<div class="wrapper">
 
 		<!-- HOME -->
-		<div class="module module-header bg-dark bg-dark-50" data-background="assets/images/section-7.jpg">
-
+		<div class="module module-header bg-dark bg-dark-50" data-background="assets/images/blog.jpg">
 			<div class="container">
-
-				<!-- MODULE TITLE -->
 				<div class="row">
-
 					<div class="col-sm-6 col-sm-offset-3">
-
-						<h1 class="module-title font-alt align-center">Blog grid</h1>
-
-						<div class="module-subtitle font-inc align-center">
-							A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
-						</div>
-
+						<h1 class="module-title font-alt align-center">Le Blog</h1>
 					</div>
-
 				</div>
-				<!-- /MODULE TITLE -->
-
 			</div>
 
 		</div  >
 		<!-- /HOME -->
-
-		<!-- BLOG GRID -->
-		<div class="module-small pdd-88-n p-b-0">
+		<div class="module-small portfolio_area p-b-60">
 
 			<div class="container">
 
-				<div class="row multi-columns-row post-columns">
+				<!-- PORTFOLIO FILTER -->
+				<div class="row">
+					<div class="col-sm-12">
 
-					<!-- POST ITEM -->
-					<div class="col-sm-6 col-md-4 col-lg-4">
+						<ul id="filters" class="filter font-inc hidden-xs">
+							<li><a href="#" data-filter="*" class="current wow fadeInUp">All</a></li>
+							<li><a href="#" data-filter=".lifestyle" class="wow fadeInUp" data-wow-delay="0.2s">Lifestyle</a></li>
+							<li><a href="#" data-filter=".fitness" class="wow fadeInUp" data-wow-delay="0.4s">Fitness &amp; Nutrition</a></li>
+							<li><a href="#" data-filter=".work" class="wow fadeInUp" data-wow-delay="0.6s">The Grind</a></li>
+							<li><a href="#" data-filter=".other" class="wow fadeInUp" data-wow-delay="0.8s">Other</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- /PORTFOLIO FILTER -->
+
+				<!-- PORTFOLIO LIST -->
+				<ul id="works-grid" class="works-grid works-grid-gut works-grid-3 works-hover-w">
+
+					<!-- PORTFOLIO ITEM -->
+					<li class="work-item illustration lifestyle">
+					<a href="portfolio-single-1.html">
 						<div class="post">
 							<div class="post-thumbnail">
-								<a href="blog-single.html"><img src="assets/images/post-1.jpg" alt=""></a>
+								<a href="blog-single.html"><img src="blog/lifestyle/donuts.jpg"></a>
 							</div>
 							<div class="post-header">
-								<h2 class="post-title font-alt"><a href="blog-single.html">Our trip to the Alps</a></h2>
+								<h2 class="post-title font-alt"><a href="blog-single.html">Austin Foodie Trip | Pt 1</a></h2>
 								<div class="post-meta font-inc">
-									By <a href="#">Michael Goodman</a> | 31 DEC 2017
+									By <a href="#">Jennifer Cortes</a> | APRIL 1 2017
 								</div>
 							</div>
 							<div class="post-entry">
-								<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+								<p>There are few things that I love more that food or a good challenge. At the beginning of February I got the chance to put the two together to see just how many restaurants one of my besties and I could eat at in one weekend in Austin, we went balls to the wall...</p>
 							</div>
 							<div class="post-more font-inc">
-								<a href="blog-single.html" class="more-link">Read more</a>
+								<a href="blog/lifestyle/austinfoodietrip.html" class="more-link">Read more</a>
 							</div>
 						</div>
-					</div>
-					<!-- /POST ITEM -->
+					</a>
+				</li>
+					<!-- /PORTFOLIO ITEM -->
 
-				</div>
+					<!-- PORTFOLIO ITEM -->
+					<li class="work-item illustration work">
+					<a href="portfolio-single-1.html">
+						<div class="post">
+							<div class="post-thumbnail">
+								<a href="blog-single.html"><img src="blog/thegrind/coding.jpg"></a>
+							</div>
+							<div class="post-header">
+								<h2 class="post-title font-alt"><a href="blog-single.html">You Code, Girl!</a></h2>
+								<div class="post-meta font-inc">
+									By <a href="#">Jennifer Cortes</a> | APRIL 1 2017
+								</div>
+							</div>
+							<div class="post-entry">
+								<p>I remember the first time I saw someone coding. My first thought was "uh, that looks hella boring" and my second thought was "wtf does all of that mean?".  Flash forward 5 years and here I am, thinking code is the titties, and telling you to start too.</p>
+							</div>
+							<div class="post-more font-inc">
+								<a href="blog/thegrind/youcodegirl.html" class="more-link">Read more</a>
+							</div>
+						</div>
+					</a>
+				</li>
+					<!-- /PORTFOLIO ITEM -->
 
+					<!-- PORTFOLIO ITEM -->
+					<li class="work-item illustration fitness">
+						<a href="portfolio-single-1.html">
+							<div class="post">
+								<div class="post-thumbnail">
+									<a href="blog-single.html"><img src="blog/fitness/sneakers.jpg"></a>
+								</div>
+								<div class="post-header">
+									<h2 class="post-title font-alt"><a href="blog-single.html">My Fitness Story | Pt 1</a></h2>
+									<div class="post-meta font-inc">
+										By <a href="#">Jennifer Cortes</a> | APRIL 1 2017
+									</div>
+								</div>
+								<div class="post-entry">
+									<p>It wasn't an epic, exciting, or Hallmark worthy start...it all started with me waking up one morning and not being able to remember when the last time was that I had broken a sweat or the last time I had gone a day without cheesy fiesta potatoes from Taco Bell...</p>
+								</div>
+								<div class="post-more font-inc">
+									<a href="blog/fitness/myfitnessstoryPT1.html" class="more-link">Read more</a>
+								</div>
+							</div>
+						</a>
+					</li>
+						<!-- /PORTFOLIO ITEM -->
+				</ul>
+					<!-- /PORTFOLIO LIST -->
 			</div>
-
 		</div >
-		<!-- /BLOG GRID -->
-
-		<!-- PAGINATION -->
-		<!-- <div class="module-small p-t-10">
-
-			<div class="container">
-
-				<div class="pagination font-inc text-uppercase">
-
-					<a href="#"><i class="fa fa-angle-left"></i> Prev</a>
-					<a href="#">Next <i class="fa fa-angle-right"></i></a>
-
-				</div>
-
-			</div>
-
-		</div > -->
-		<!-- /PAGINATION -->
 
 		<!-- DIVIDER -->
 		<hr class="divider-w">
@@ -180,58 +206,15 @@
 
 		<!-- CONTACT -->
 		<div class="module-small">
-
-			<div class="container">
-
 				<div class="row">
-
-					<!-- CONTENT BOX -->
-					<div class="col-sm-4">
-						<div class="content-box">
-							<div class="content-box-icon">
-								<span class="icon-map-pin"></span>
-							</div>
-							<div class="content-box-title font-inc">
-								 Frisco, TX, US
-							</div>
-						</div>
+					<div class="col-lg-12 text-center">
+						<h2 class="module-title align-center font-alt">Check out my IG</h2>
+						<iframe src="https://snapwidget.com/embed/358962" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:2200px; height:200px"></iframe>
 					</div>
-					<!-- /CONTENT BOX -->
-
-					<!-- CONTENT BOX -->
-					<div class="col-sm-4">
-						<div class="content-box">
-							<div class="content-box-icon">
-								<span class="icon-phone"></span>
-							</div>
-							<div class="content-box-title font-inc">
-								817 487 1378
-							</div>
-						</div>
-					</div>
-					<!-- /CONTENT BOX -->
-
-					<!-- CONTENT BOX -->
-					<div class="col-sm-4">
-						<div class="content-box">
-							<div class="content-box-icon">
-								<span class="icon-envelope"></span>
-							</div>
-							<div class="content-box-title font-inc">
-								hello@jennifercortes.co
-							</div>
-						</div>
-					</div>
-					<!-- /CONTENT BOX -->
-
-				</div>
-
-
 			</div>
 
 		</div >
 		<!-- /CONTACT -->
-
 		<!-- FOOTER -->
 		<footer class="footer">
 
@@ -261,7 +244,7 @@
 			</div>
 
 		</footer>
-		<!-- /FOOTER -->
+
 
 	</div>
 	<!-- /WRAPPER -->
