@@ -38,52 +38,48 @@
 
 	<!-- NAVIGATION -->
 	<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top" >
-
-			<div class="container">
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">The Jennuine Life</a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="custom-collapse">
-
-					<ul class="nav navbar-nav navbar-right">
-
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about.html">About</a>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="photography.html">Photography</a>
-								</li>
-								<li>
-									<a href="design.html">Web &amp; Branding</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="blog.html">Blog</a>
-						</li>
-						<li>
-							<a href="contact">Contact</a>
-						</li>
-
-					</ul>
-				</div>
-
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">The Jennuine Life</a>
 			</div>
 
+			<div class="collapse navbar-collapse" id="custom-collapse">
+
+				<ul class="nav navbar-nav navbar-right">
+
+					<li>
+						<a href="index">Home</a>
+					</li>
+					<li>
+						<a href="about">About</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+						<ul class="dropdown-menu" role="menu">
+							<li>
+								<a href="photography">Photography</a>
+							</li>
+							<li>
+								<a href="design">Web &amp; Branding</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="blog">Blog</a>
+					</li>
+					<li>
+						<a href="contact">Contact</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
 	</nav>
 	<!-- /NAVIGATION -->
 
@@ -148,7 +144,7 @@
 							The Jennuine Life is the home of an always hungry, dreaming, wanderlust-ing, fitnessing, genuine hearted Jennifer Cortes, AKA, ME.
 							<br>
 							<br>
-							Here, you will find my portfolios for design and photography, as well as my code (for those of you who want to give me a job, *wink wink*) You'll also get to read my blog, which just a heads up, will probably be raaaaandom as hell...and very much ME.
+							Here, you will find my portfolios for design and photography, as well as some of my code (for those of you who want to give me a job, *wink wink*) You'll also get to read my blog, which just a heads up, will probably be raaaaandom as hell...and very much ME.
 							<br>
 							<br>
 							The Jennuine Life is a name and idea that was born years ago, but has taken time to develop...after all, I didn't really know how to get all of <u>ME</u> out there in a somewhat organized manner. But finally, I said "Fuck It" (Just a heads up, I say bad words. Sorry not sorry) and decided to just put it all here, just as it all is and just as I am, because after all, it wouldn't be too genuine if I didn't, huh?
@@ -248,10 +244,10 @@
 					<div class="col-sm-4 col-md-4 col-lg-4">
 						<div class="post">
 							<div class="post-thumbnail">
-								<a href="blog/lifestyle/austinfoodietrip.html"><img src="blog/lifestyle/donuts.jpg"></a>
+								<a href="posts/lifestyle/austinfoodietrip"><img src="posts/lifestyle/donuts.jpg"></a>
 							</div>
 							<div class="post-header">
-								<h2 class="post-title font-alt"><a href="blog/lifestyle/austinfoodietrip.html">Austin Foodie Trip | Pt 1</a></h2>
+								<h2 class="post-title font-alt"><a href="posts/lifestyle/austinfoodietrip">Austin Foodie Trip | Pt 1</a></h2>
 								<div class="post-meta font-inc">
 									By <a href="#">Jennifer Cortes</a> | APRIL 1 2017
 								</div>
@@ -260,7 +256,7 @@
 								<p>There are few things that I love more that food or a good challenge. At the beginning of February I got the chance to put the two together to see just how many restaurants one of my besties and I could eat at in one weekend in Austin, we went balls to the wall...</p>
 							</div>
 							<div class="post-more font-inc">
-								<a href="blog/lifestyle/austinfoodietrip.html" class="more-link">Read more</a>
+								<a href="posts/lifestyle/austinfoodietrip" class="more-link">Read more</a>
 							</div>
 						</div>
 					</div>
@@ -268,10 +264,10 @@
 					<div class="col-sm-4 col-md-4 col-lg-4">
 						<div class="post">
 							<div class="post-thumbnail">
-								<a href="blog/thegrind/youcodegirl.html"><img src="blog/thegrind/coding.jpg"></a>
+								<a href="posts/thegrind/youcodegirl"><img src="posts/thegrind/coding.jpg"></a>
 							</div>
 							<div class="post-header">
-								<h2 class="post-title font-alt"><a href="blog/thegrind/youcodegirl.html">You Code, Girl!</a></h2>
+								<h2 class="post-title font-alt"><a href="posts/thegrind/youcodegirl">You Code, Girl!</a></h2>
 								<div class="post-meta font-inc">
 									By <a href="#">Jennifer Cortes</a> | APRIL 1 2017
 								</div>
@@ -280,7 +276,7 @@
 								<p>I remember the first time I saw someone coding. My first thought was "uh, that looks hella boring" and my second thought was "wtf does all of that mean?".  Flash forward 5 years and here I am, thinking code is the titties, and telling you to start too.</p>
 							</div>
 							<div class="post-more font-inc">
-								<a href="blog/youcodegirl.html" class="more-link">Read more</a>
+								<a href="posts/thegrind/youcodegirl" class="more-link">Read more</a>
 							</div>
 						</div>
 					</div>
@@ -289,10 +285,10 @@
 					<div class="col-sm-4 col-md-4 col-lg-4">
 						<div class="post">
 							<div class="post-thumbnail">
-								<a href="blog/fitness/myfitnessstoryPT1.html"><img src="blog/fitness/sneakers.jpg"></a>
+								<a href="posts/fitness/myfitnessstoryPT1"><img src="posts/fitness/sneakers.jpg"></a>
 							</div>
 							<div class="post-header">
-								<h2 class="post-title font-alt"><a href="fitness/myfitnessstoryPT1.html">My Fitness Story | Pt 1</a></h2>
+								<h2 class="post-title font-alt"><a href="posts/fitness/myfitnessstoryPT1">My Fitness Story | Pt 1</a></h2>
 								<div class="post-meta font-inc">
 									By <a href="#">Jennifer Cortes</a> | APRIL 1 2017
 								</div>
@@ -301,7 +297,7 @@
 								<p>It wasn't an epic, exciting, or Hallmark worthy start...it all started with me waking up one morning and not being able to remember when the last time was that I had broken a sweat or the last time I had gone a day without cheesy fiesta potatoes from Taco Bell...</p>
 							</div>
 							<div class="post-more font-inc">
-								<a href="blog-single.html" class="more-link">Read more</a>
+								<a href="posts/fitness/myfitnessstoryPT1" class="more-link">Read more</a>
 							</div>
 						</div>
 					</div>

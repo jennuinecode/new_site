@@ -37,52 +37,48 @@
 
 	<!-- NAVIGATION -->
 	<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top" >
-
-			<div class="container">
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">The Jennuine Life</a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="custom-collapse">
-
-					<ul class="nav navbar-nav navbar-right">
-
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about.html">About</a>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="photography.html">Photography</a>
-								</li>
-								<li>
-									<a href="design.html">Web &amp; Branding</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="blog.html">Blog</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact</a>
-						</li>
-
-					</ul>
-				</div>
-
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">The Jennuine Life</a>
 			</div>
 
+			<div class="collapse navbar-collapse" id="custom-collapse">
+
+				<ul class="nav navbar-nav navbar-right">
+
+					<li>
+						<a href="index">Home</a>
+					</li>
+					<li>
+						<a href="about">About</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+						<ul class="dropdown-menu" role="menu">
+							<li>
+								<a href="photography">Photography</a>
+							</li>
+							<li>
+								<a href="design">Web &amp; Branding</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="blog">Blog</a>
+					</li>
+					<li>
+						<a href="contact">Contact</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
 	</nav>
 	<!-- /NAVIGATION -->
 
@@ -103,45 +99,47 @@
 	<br>
 	<!-- WRAPPER -->
 	<div class="wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<h2 class="module-title align-center font-alt">WELCOME TO THE PHOTOGRAPHY PORTFOLIO</h2>
-							</div>
-						</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="module-title align-center font-alt">WELCOME TO THE PHOTOGRAPHY PORTFOLIO</h2>
+				</div>
+			</div>
 
-						<div class="row">
-							<div class="col-md-6">
-								<div class="module-subtitle align-center font-inc">
-									When it comes to photography, I consider myself a dedicated hobbiest. Despite having been in business for almost 6 years, I don't think I'll ever feel 100% comfy calling myself a professional photographer. Don't ask me why. I wouldn't be able to tell ya.
-									<br>
-									<br>
-									What I CAN tell you is that it has been an amazing 6 years and I don't ever see myself stopping. I can't wait for the nomad year my boyfriend and I are planning so I can add other parts of the world to my little collection.
-									<br>
-									<br>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="module-subtitle align-center font-inc">
-									I describe my photography style as journalistic meets lifestyle. I go  back and forth between bright, lively colors and moody edits. In very artistic fashion, my final product tends to tell a story of how I felt while working on my session.
-									<br>
-									<br>
-									Regardless, thanks for checking out my humble portfolio. Please keep checking back as I have so many pictures to go through to choose to add as well as new sessions to shoot.
-									<br>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="module-subtitle align-center font-inc">
-										<p>If you're interested in booking a session, please head over to the contact page and drop me a line. I would love to hear from you!</p>
-									</div>
-								</div>
-							</div>
-
+			<div class="row">
+				<div class="col-md-6">
+					<div class="module-subtitle align-center font-inc">
+						When it comes to photography, I consider myself a dedicated hobbiest. Despite having been in business for almost 6 years, I don't think I'll ever feel 100% comfy calling myself a professional photographer. Don't ask me why. I wouldn't be able to tell ya.
+						<br>
+						<br>
+						What I CAN tell you is that it has been an amazing 6 years and I don't ever see myself stopping. I can't wait for the nomad year my boyfriend and I are planning so I can add other parts of the world to my little collection.
+						<br>
+						<br>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="module-subtitle align-center font-inc">
+						I describe my photography style as journalistic meets lifestyle. I go  back and forth between bright, lively colors and moody edits. In very artistic fashion, my final product tends to tell a story of how I felt while working on my session.
+						<br>
+						<br>
+						Regardless, thanks for checking out my humble portfolio. Please keep checking back as I have so many pictures to go through to choose to add as well as new sessions to shoot.
+						<br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="module-subtitle align-center font-inc">
+							<p>If you're interested in booking a session, please head over to the contact page and drop me a line. I would love to hear from you!</p>
 						</div>
 					</div>
+				</div>
+
+			</div>
+		</div>
 
 		<!-- PORTFOLIO -->
+		<br>
+		<br>
 		<div class="module-small p-t-20 p-b-0 p-t-sm-0">
 			<div class="container">
 				<!-- PORTFOLIO FILTER -->
@@ -161,6 +159,8 @@
 				<!-- /PORTFOLIO FILTER -->
 
 			</div>
+			<br>
+			<br>
 
 			<!-- PORTFOLIO LIST -->
 			<ul id="works-grid" class="works-grid works-grid-masonry works-grid-3 works-hover-w">
